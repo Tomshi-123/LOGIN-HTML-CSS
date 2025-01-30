@@ -9,10 +9,10 @@ body {
     justify-content:center;
     height: 100vh;
     margin:0;
-    background-image: url('/F25S-BILDER/wp3937365.jpg') ;
+    background-image: url('/Css/F25S-BILDER/wp3937365.jpg') ;
     }
 
-    .Ruta {
+    .container {
     position: fixed;
     width: 420px;
     height: 500px;
@@ -28,7 +28,7 @@ body {
     box-shadow: 2px 3px 25px 3px rgb(1, 5, 5);
     }
     
-    .Ruta h1 {
+    .container h1 {
 
         font-family: Georgia, serif;
         font-style: normal;
@@ -38,7 +38,7 @@ body {
 
     }
 
-    .Ruta .p1 {
+    .container .p1 {
         font-family: Georgia, serif;
         font-style: normal;
         text-align: center;
@@ -46,7 +46,7 @@ body {
     
     }
 
-    .Ruta input {
+    .container input {
         height: 40px;
         width: 100%;
         padding-left: 45px;
@@ -57,73 +57,93 @@ body {
         margin-bottom: 15px; 
     }
     
-    .Ruta #email {
+    .container #email {
         background: transparent;
         color:white;
     }
     
-    .Ruta #password {
+    .container #password {
         background: transparent;
         color: white;
     }
 
-    .Ruta input:hover {
+    .container input:hover {
         border: 2px solid rgb(114, 207, 250);
     }
     
     
-    .Ruta .remember-forgot {
+    .container .remember-forgot {
         display: flex;
         justify-content: space-between;
         align-items: center; 
         margin-bottom: 20px; 
     }
     
-    .Ruta #remember {
+    .container #remember {
         width: 16px;
         height: 16px;
         margin-bottom: 0; 
         margin-right: 10px; 
     }
     
-    .Ruta .forgot {
+    .container .forgot {
         font-size: 16px;
         color: rgba(52, 252, 185, 0.692);
         text-decoration: none; 
     }
     
-    .Ruta .forgot:hover {
+    .container .forgot:hover {
         color: purple;
         text-decoration: underline; 
     }
 
-    .Ruta .create-account {
-        margin-top: 100px;
+    .container .create-account {
+        margin: 15px;
         text-align: center;
     }
 
-    .Ruta .blimedlem {
+    .container .member {
         color:rgba(52, 252, 185, 0.692);
     }
 
-    .Ruta .blimedlem:hover {
+    .container .member:hover {
         color: purple;
     }
 
-    .Ruta .knapp {
+    .container .btn {
+        color: white;
         height: 40px;
         width: 100%;
         margin-top: 15px;
         outline: none;
-        border: 2px solid rgba(255, 255, 255, .2);
+        border: 2px solid rgb(52, 252, 185, 0.562);
         font-size: 18px;
         border-radius: 25px;
         margin-bottom: 15px; 
         text-align: center;
+        background-color: rgba(52, 252, 185, 0.562);
         }
 
-        .Ruta .knapp:hover {
-            border: 2px solid rgb(114, 207, 250);
+        .container .btn:hover {
+            border: 2px solid rgb(198, 255, 236);
+    }
+
+    .container .rgstr {
+        background-color: transparent;
+        color: white;
+        height: 40px;
+        width: 100%;
+        margin-top: 15px;
+        outline: none;
+        border: 2px solid rgba(52, 252, 185, 0.404);
+        font-size: 18px;
+        border-radius: 25px;
+        margin-bottom: 15px; 
+        text-align: center;
+    }
+
+    .container .rgstr:hover {
+        border: 2px solid rgba(156, 253, 221, 0.658);
     }
     
 
