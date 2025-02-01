@@ -2,47 +2,40 @@
 <html>
     <head>
         <meta charset="UTF-8"> 
-        <meta name="Description" content="My Log in form">
-        <title>Log in</title>
-        <link rel="stylesheet"href="/style.css">
+        <meta name="Description" content="My Log in form"> <!-- Beskrivning av sidan -->
+        <title>Log in</title> <!-- Titel på sidan -->
+        <link rel="stylesheet"href="/style.css"> <!-- Länk till CSS-filen -->
     </head>
     <body>
-        <div class="container">
+        <div class="container"> <!-- Huvudbehållaren för formuläret -->
             <form action="https://www.icegif.com/wp-content/uploads/2023/09/icegif-506.gif" method="POST" target="_self">         
-                <h1>Welcome!</h1>
+                <h1>Welcome!</h1> <!-- Huvudrubrik -->
 
-            
-                <p class="p1">Enter email and password to log in.</p>
-            
-            
+                <p class="p1">Enter email and password to log in.</p> <!-- Kort beskrivning -->
+
                 <div class="field">
-                    <input type="text" id="email" placeholder="Email" required>
-            
-                </div>
-            
-                <div class="field">
-                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="text" id="email" placeholder="Email" required> <!-- Fält för e-post -->
                 </div>
 
+                <div class="field">
+                    <input type="password" id="password" placeholder="Password" required> <!-- Fält för lösenord -->
+                </div>
 
-                <div class="remember-forgot">
+                <div class="remember-forgot"> <!-- Checkbox och länk för glömt lösenord -->
                     <label>
                         <input type="checkbox" id="remember"> Remember me
                     </label>
                     <a href="#" class="forgot">Forgot password?</a>
                 </div>
-                
 
+                <button type="submit" class="btn">Login</button> <!-- Inloggningsknapp -->
 
-                <button type="submit" class="btn">Log in</button>
-
-                <div class="create-account">
+                <div class="create-account"> <!-- Text för att skapa konto -->
                     <p class="medlem">Don't have an account? </p>
                 </div>
 
-                <button type="button" class="rgstr">Register.</button>
+                <button type="button" class="rgstr">Register</button> <!-- Knapp för registrering -->
             </form>
         </div>
-
     </body>
 </html>

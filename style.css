@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styla bakgrunden och centrera innehållet */
 body {
     display: flex;
     justify-content:center;
     height: 100vh;
     margin:0;
-    background-image: url('/Css/F25S-BILDER/wp3937365.jpg') ;
-    }
+    background-image: url('/Css/F25S-BILDER/wp3937365.jpg');
+}
 
-    .container {
+/* Styla inloggningsrutan */
+.container {  
     position: fixed;
     width: 420px;
     height: 500px;
@@ -26,124 +28,95 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 2px 3px 25px 3px rgb(1, 5, 5);
-    }
-    
-    .container h1 {
+}
 
-        font-family: Georgia, serif;
-        font-style: normal;
-        text-align: center;
-        margin-bottom: 20px;
-        
+/* Stil för rubrik */
+.container h1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-    }
+/* Stil för texten under rubriken */
+.container .p1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-    .container .p1 {
-        font-family: Georgia, serif;
-        font-style: normal;
-        text-align: center;
-        margin-bottom: 20pX;
-    
-    }
+/* Stil för inmatningsfälten */
+.container input {
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 18px;
+    border-radius: 25px;
+    margin-bottom: 15px; 
+    background: transparent;
+    color: white;
+}
 
-    .container input {
-        height: 40px;
-        width: 100%;
-        padding-left: 45px;
-        outline: none;
-        border: 2px solid rgba(255, 255, 255, .2);
-        font-size: 18px;
-        border-radius: 25px;
-        margin-bottom: 15px; 
-    }
-    
-    .container #email {
-        background: transparent;
-        color:white;
-    }
-    
-    .container #password {
-        background: transparent;
-        color: white;
-    }
+/* Ändra kantfärg vid hover */
+.container input:hover {
+    border: 2px solid rgb(114, 207, 250);
+}
 
-    .container input:hover {
-        border: 2px solid rgb(114, 207, 250);
-    }
-    
-    
-    .container .remember-forgot {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
-        margin-bottom: 20px; 
-    }
-    
-    .container #remember {
-        width: 16px;
-        height: 16px;
-        margin-bottom: 0; 
-        margin-right: 10px; 
-    }
-    
-    .container .forgot {
-        font-size: 16px;
-        color: rgba(52, 252, 185, 0.692);
-        text-decoration: none; 
-    }
-    
-    .container .forgot:hover {
-        color: purple;
-        text-decoration: underline; 
-    }
+/* Stil för "Kom ihåg mig" och "Glömt lösenord?" */
+.container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
 
-    .container .create-account {
-        margin: 15px;
-        text-align: center;
-    }
+.container #remember {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
 
-    .container .member {
-        color:rgba(52, 252, 185, 0.692);
-    }
+/* Stil för "Glömt lösenord?"-länk */
+.container .forgot {
+    font-size: 16px;
+    color: rgba(52, 252, 185, 0.692);
+    text-decoration: none; 
+}
 
-    .container .member:hover {
-        color: purple;
-    }
+.container .forgot:hover {
+    color: purple;
+    text-decoration: underline;
+}
 
-    .container .btn {
-        color: white;
-        height: 40px;
-        width: 100%;
-        margin-top: 15px;
-        outline: none;
-        border: 2px solid rgb(52, 252, 185, 0.562);
-        font-size: 18px;
-        border-radius: 25px;
-        margin-bottom: 15px; 
-        text-align: center;
-        background-color: rgba(52, 252, 185, 0.562);
-        }
+/* Stil för knappen "Logga in" */
+.container .btn {
+    color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.562);
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: white;
+}
 
-        .container .btn:hover {
-            border: 2px solid rgb(198, 255, 236);
-    }
+.container .btn:hover {
+    border: 2px solid rgb(114, 207, 250);
+}
 
-    .container .rgstr {
-        background-color: transparent;
-        color: white;
-        height: 40px;
-        width: 100%;
-        margin-top: 15px;
-        outline: none;
-        border: 2px solid rgba(52, 252, 185, 0.404);
-        font-size: 18px;
-        border-radius: 25px;
-        margin-bottom: 15px; 
-        text-align: center;
-    }
+/* Stil för registreringsknappen */
+.container .rgstr {
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid rgba(52, 252, 185, 0.404);
+    font-size: 18px;
+    border-radius: 25px;
+}
 
-    .container .rgstr:hover {
-        border: 2px solid rgba(156, 253, 221, 0.658);
-    }
-    
-
+.container .rgstr:hover {
+    border: 2px solid rgb(114, 207, 250);
+}
