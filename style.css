@@ -105,13 +105,17 @@ body {
     border: 2px solid rgb(114, 207, 250);
 }
 
+.container .medlem {
+    text-align: center;
+    margin: 15px;
+}
+
 /* Stil för registreringsknappen */
 .container .rgstr {
     background-color: transparent;
     color: white;
     height: 40px;
     width: 100%;
-    margin-top: 15px;
     border: 2px solid rgba(52, 252, 185, 0.404);
     font-size: 18px;
     border-radius: 25px;
