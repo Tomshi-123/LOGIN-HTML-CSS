@@ -1,4 +1,5 @@
-Simpel login-sida i enbart HTML och CSS.
+# Mitt Projekt
 
-<a url="[(https://github.com/Tomshi-123/LOGIN-HTML-CSS)](https://github.com/Tomshi-123/LOGIN-HTML-CSS)">Länk till repository.</a>
+Välkommen till mitt projekt! Du kan kolla på koden här:
 
+[GitHub Repository](https://github.com/Tomshi-123/ufo-game)
